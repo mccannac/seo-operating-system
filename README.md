@@ -1,7 +1,31 @@
-# SEO Operating System — FCMO Architecture (2026)
+# SEO Operating System
 
-A repeatable, modern SEO operating system rebuilt from a 2021 SEO curriculum, designed for a
-Fractional CMO serving multiple sophisticated clients.
+## What it is
+
+A complete, modern SEO operating system for a fractional CMO serving multiple clients, rebuilt from a 2021 SEO curriculum for 2026 search (including AI Overviews and AI Mode).
+
+## Problem it solves
+
+Most SEO training teaches isolated tasks, not a repeatable process. Some 2021 advice is now wrong (e.g. ranking by lowest CPC, outdated tools and link tactics), and AI search has changed what to measure. This system replaces that with a client lifecycle, a scoring model, governance and automation.
+
+## How it works
+
+1. **Client Brain** – a per-client knowledge base fed by APIs (Search Console, GA4, CRM and others).
+2. **Agents** – narrowly scoped AI agents for audits, keywords, competitors, content and authority.
+3. **Workflows** – deterministic n8n modules orchestrate the agents.
+4. **Opportunity scoring** – recommendations are scored, not sorted by volume, and each carries evidence, confidence, effort and an owner.
+5. **Human approval gates** – anything that can publish, redirect, email or spend money needs approval.
+6. **Reporting** – operational, strategic and executive tiers.
+
+## Status
+
+**Design spec.** Not yet built or deployed.
+
+*Designed by me; drafted with Claude/ChatGPT.*
+
+---
+
+## Files
 
 Exported from Claude Docs on September 22, 2026. Sixteen sections, in reading order:
 
@@ -24,7 +48,7 @@ Exported from Claude Docs on September 22, 2026. Sixteen sections, in reading or
 | 14 | `14-phase14-prompt-library.md` | 6 production-ready prompts with JSON output schemas, for embedding in automation |
 | 15 | `15-phase15-simulation-and-first-build.md` | Simulated client run (Meridian Advisory Group) + recommended first build |
 
-`SEO-Operating-System-FULL.md` contains all sixteen sections concatenated into a single file,
+`LICENSE` is the MIT license. `SEO-Operating-System-FULL.md` contains all sixteen sections concatenated into a single file,
 for anyone who wants to read or search it end to end.
 
 Diagrams are in [Mermaid](https://mermaid.js.org/) syntax (renders natively on GitHub in any
